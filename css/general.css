@@ -8,6 +8,12 @@
     list-style: none;
 }
 
+.container_all {
+    position: relative;
+    right: 0;
+    transition: all 300ms;
+}
+
 header {
     width: 100%;
     height: 100px;
@@ -17,6 +23,10 @@ header {
     right: 0;
     z-index: 100;
     background-color: rgb(8, 51, 241);
+}
+
+.move_content {
+    right: 200px;
 }
 
 .cont__header {
@@ -69,6 +79,23 @@ nav ul li a {
     background: darkgreen;
     padding: 10px 30px;
     border-radius: 18px;
+}
+
+.btn__menu {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 300ms;
+    border-radius: 50%;
+    display: none;
+}
+
+.btn__menu:hover {
+    background: #7799e2;
 }
 
 
@@ -137,6 +164,35 @@ nav ul li a {
     cursor: pointer;
 }
 
+@media screen and (max-width:760px) {
+    .cont__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn__menu {
+        display: flex;
+    }
+    nav {
+        height: 100%;
+        background: rgb(8, 51, 241);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        padding: 0px 40px;
+        transition: all 300ms;
+    }
+    .move_nav {
+        right: 0;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 20px 0px;
+    }
+}
+
 
 /* estilos footer*/
 
@@ -147,7 +203,6 @@ footer {
     background-color: rgb(8, 51, 241);
     -webkit-mask-image: url(/img/background-footer.svg);
     mask-image: url(/img/background-footer.svg);
-    -webkit-mask-size: cover;
 }
 
 .cont-footer {
