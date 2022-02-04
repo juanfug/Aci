@@ -1,239 +1,383 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aci | Inicio</title>
+    <link rel="shortcut icon" href="img/ACI-short.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/general.css" />
-    <link rel="stylesheet" href="css/font/flaticon.css" />
-    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
-    <meta name="description" content="Red de apoyo colombiana en Asesorias para la obbtencion de la ciudadania italiana, asi tambien como el acompañamiento en los diferentes procesos legales que requiere el tramite">
+    <meta
+      name="description"
+      content="Red de apoyo colombiana en Asesorias para la obbtencion de la ciudadania italiana, asi tambien como el acompañamiento en los diferentes procesos legales que requiere el tramite"
+    />
+  </head>
 
-</head>
-
-<body>
-    <header>
-        <section class="header-icons-container">
-            <div class="icons">
-                <a href="https://www.facebook.com/AsesoriasCiudadaniaItaliana/"><span class="fimanager flaticon-001-facebook"></span
-          ></a>
-                <a href="https://www.instagram.com/asesorias_ciudadania_italiana/"><span class="fimanager flaticon-011-instagram"></span
-          ></a>
-                <a href="https://wa.link/7j2djr"><span class="fimanager flaticon-003-whatsapp"></span
-          ></a>
-            </div>
-        </section>
-        <nav>
-            <section class="nav-logo-container">
-                <img src="/img/ACI.png" alt="Logo empresa asesorias ciudadania italiana" />
-            </section>
-            <section class="nav-items">
-                <ul>
-                    <li><a href="/index.html">Inicio</a></li>
-                    <li><a href="/services.html">Servicios</a></li>
-                    <li>
-                        <a href="/aboutus.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="https://wa.link/7j2djr">Contactanos aqui</a>
-                    </li>
-                </ul>
-            </section>
-        </nav>
+  <body>
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">
+          <img
+            src="/img/ACI-short.png"
+            alt="Logo empresa asesorias ciudadania italiana"
+          />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Nosotros</a>
+            </li>
+            <li class="nav__item">
+              <a href="/services.html" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a href="https://wa.link/7j2djr" class="nav__link"
+                >Contactanos aqui</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
     </header>
-    <main>
-        <section class="main--section">
-            <div class="main--section__content">
-                <div>
-                    <h1>Asesorías Ciudadania Italiana</h1>
-                    <h2>Te ayudamos a gestionar tu ciudadanía italiana</h2>
-                </div>
-                <p>
-                    Tramites de Cittadinanza, Gestores expertos en derecho italiano, Traducciones, Actas 🇮🇹
-                </p>
-                <button class="main-button">
-            <a href="https://wa.link/7j2djr">Contactanos!</a>
-          </button>
-            </div>
-        </section>
+    <main class="l-main">
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Asesorías Ciudadania Italiana</h1>
+            <h2 class="home__subtitle">
+              Te ayudamos a gestionar tu ciudadanía italiana
+            </h2>
+            <p class="home__description">
+              Tramites de Cittadinanza, Gestores expertos en derecho italiano,
+              Traducciones, Actas 🇮🇹
+            </p>
+            <a href="https://wa.link/7j2djr" class="button">Contactanos!</a>
+          </div>
+        </div>
+      </section>
 
-        <section class="container__info_page">
-            <div class="grid-container">
-                <h2>Nuestros Servicios</h2>
-                <div class="services-main-container">
-                    <article class="card">
-                        <figure>
-                            <img src="/img/Aci_services_img.jpeg" alt="" />
-                        </figure>
-                        <div class="conten_img">
-                            <p>
-                                Brindamos asesorias en todos los servicios que puedes observar
-                            </p>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <figure>
-                            <img src="/img/llamadoaccion.jpeg" alt="" />
-                        </figure>
-                        <div class="conten_img">
-                            <p>
-                                Brindamos asesorias en todos los servicios que puedes observar
-                            </p>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <figure>
-                            <img src="/img/sabias.jpeg" alt="" />
-                        </figure>
-                        <div class="conten_img">
-                            <p>
-                                Brindamos asesorias en todos los servicios que puedes observar
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle">Acerca de nosotros</span>
+            <h2 class="section-title">Somos una red de apoyo en colombia</h2>
+            <p class="about__description">
+              Asesoramos a los interesados en entrar al proceso de adquisicion
+              de la ciudadania italiana en colombia.
+            </p>
+            <a href="aboutus.html" class="button">Conoce Nuestra Historia</a>
+          </div>
 
-        <section class="quest_and_answer">
-            <div class="grid-container">
-                <div class="quest-tittle-container">
-                    <h2>Asesorías online y personalizada</h2>
-                    <h3>
-                        Realiza el proceso con expertos, Nosotros te ayudamos a gestionarla.
-                    </h3>
-                </div>
-                <div class="quest-main-container">
-                    <figure class="quest-img-container">
-                        <img src="img/Aci_services_img.jpeg" alt="ACI Services" />
-                    </figure>
-                    <article class="quest-card-container">
-                        <div class="quest-card-content">
-                            <div class="icon-container">
-                                <span class="icon-content asesoria-icon"></span>
-                            </div>
-                            <h3>Asesoría Legal</h3>
-                            Te brindamos la asesoría legal con especialistas en derecho italiano para que puedas tramitar tu ciudadanía con confianza
-                        </div>
-                    </article>
-                    <article class="quest-card-container">
-                        <div class="quest-card-content">
-                            <div class="icon-container">
-                                <span class="icon-content busqueda-icon"></span>
-                            </div>
-                            <h3>Búsqueda de actas</h3>
-                            <p>
-                                Buscamos los documentos necesarios para tramitar tu ciudadanía
-                            </p>
-                        </div>
-                    </article>
-                    <article class="quest-card-container">
-                        <div class="quest-card-content">
-                            <div class="icon-container">
-                                <span class="icon-content traducciones-icon"></span>
-                            </div>
-                            <h3>Traducciones</h3>
-                            <p>
-                                Realizamos la traducción de los documentos requeridos para tramitar tu ciudadanía, teniendo en cuenta los requisitos y procedimientos que exige la legislación vigente según tu caso.
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
+          <img src="/img/llamadoaccion.jpeg" alt="" class="about__img" />
+        </div>
+      </section>
 
-        <section>
-            <div class="information">
-                <h3 class="tittle">¿Tengo ascendencia Italiana?</h3>
-                <p>
-                    Todo empieza con esta pregunta. <br /> ¿Tengo ascendencia italiana? <br /> Si llegaste hasta acá, la respuesta (más segura) es que Sí. <br /> El reconocimiento de la ciudadanía italiana por Jure Sanguinis (por sangre) es la manera
-                    más común de aplicar a la ciudadanía. <br /> Si tienes tu AVO, sin importar que tan lejano sea, puedes aplicar
-                    <br /> Y aunque la respuesta sea NO, existen otros métodos de obtener la ciudadanía italiana. <br /> El matrimonio con un ciudadano italiano es una opción. <br /> Por naturalización, aunque está es más difícil, puedes aplicar después
-                    de haber vivido legalmente en Italia durante al menos 10 años.
-                </p>
-            </div>
-            <img src="/img/soy_italiano.png" alt="" />
-        </section>
-        <section class="ous_client">
-            <h3 class="tittle">Estas en Buenas Manos</h3>
-            <p>Nuestros clientes y testigos de nuestro servicio nos recomiendan</p>
-            <div class="clientes">
-                <ul>
-                    <li><img src="/img/cliente.jpeg" alt="" /></li>
-                    <li><img src="/img/cliente1.png" alt="" /></li>
-                    <li><img src="/img/cliente2.png" alt="" /></li>
-                    <li><img src="/img/cliente3.png" alt="" /></li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <div class="information">
-                <h3 class="tittle">¿Que Beneficios me da ser ciudadano italiano?</h3>
-                <p>
-                    Resumiendo los beneficios estos son los más importantes: <br /> -Libertades económicas y migratorias. <br /> -Posibilidades de empleo. <br /> -Comprar propiedades. <br /> -Acceso a la educación. <br /> -Podrás pasar la ciudadanía a
-                    tus hijos. <br /> -Servicios de salud gratuito. <br /> -Beneficios culturales. <br /> -Derecho a votar. <br />
-                </p>
-            </div>
-            <img src="/img/beneficios.png" alt="" />
-        </section>
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Nuestros servicios</span>
+        <h2 class="section-title">Asesorías online y personalizada</h2>
 
-        <section>
-            <img src="/img/vencimiento.png" alt="" />
-            <div class="information">
-                <h3 class="tittle">
-                    ¿Sabías que en realidad las actas que registran actos civiles como el nacimiento, matrimonio o defunción en realidad NO VENCEN?
-                </h3>
-                <p>
-                    Esto está establecido claramente en el Art. 41 del DPR <br /> (Decreto del Presidente Della Repúbblica ) de fecha del 28 de diciembre del 2000 .N. 445/2000. <br /> Por esto cuando te recomendamos qué, cuando <br /> te comuniques con
-                    alguna Comuna para consultar si es viable en la misma realizar el pedido de la ciudadanía, <br /> le consultes si aplican los establecidos por el decreto antes mencionados, <br /> puntualmente en base al no vencimiento de la documentación
-                </p>
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <span class="services__icons asesoria--icon"> </span>
+            <h3 class="services__title">Asesoría Legal</h3>
+            <p class="services__description">
+              Te brindamos la asesoría legal con especialistas en derecho
+              italiano para que puedas tramitar tu ciudadanía con confianza
+            </p>
+          </div>
+
+          <div class="services__content">
+            <span class="services__icons busqueda--icon"></span>
+            <h3 class="services__title">Búsqueda de actas</h3>
+            <p class="services__description">
+              Buscamos los documentos necesarios para tramitar tu ciudadanía
+            </p>
+          </div>
+          <div class="services__content">
+            <span class="services__icons traduccion--icon"></span>
+            <h3 class="services__title">Traducciones</h3>
+            <p class="services__description">
+              Realizamos la traducción de los documentos requeridos para
+              tramitar tu ciudadanía, teniendo en cuenta los requisitos y
+              procedimientos que exige la legislación vigente según tu caso.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits section bd-container">
+        <h3 class="section-title">Beneficios de ser ciudadano italiano</h3>
+        <img class="benefits__img" src="/img/beneficios.png" alt="" />
+        <span class="section-subtitle">Los beneficios más importantes:</span>
+        <div class="benefits__container bd-grid">
+          <div class="benefits__content">
+            <span class="benefits__icons libertad-icon"></span>
+            <p class="benefits__description">
+              Libertades económicas y migratorias.
+            </p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons empleo-icon"></span>
+            <p class="benefits__description">Posibilidades de empleo</p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons propiedades-icon"></span>
+            <p class="benefits__description">Comprar propiedades</p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons educacion-icon"></span>
+            <p class="benefits__description">Acceso a la educación</p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons hijos-icon"></span>
+            <p class="benefits__description">
+              Podrás pasar la ciudadanía a tus hijos
+            </p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons salud-icon"></span>
+            <p class="benefits__description">Servicios de salud gratuito</p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons cultura-icon"></span>
+            <p class="benefits__description">Beneficios culturales.</p>
+          </div>
+          <div class="benefits__content">
+            <span class="benefits__icons votar-icon"></span>
+            <p class="benefits__description">Derecho a votar.</p>
+          </div>
+        </div>
+      </section>.
+
+      <section class="our_client section bd-container">
+        <h3 class="title">Estas en Buenas Manos</h3>
+        <p>Nuestros clientes y testigos de nuestro servicio nos recomiendan</p>
+        <div class="clientes">
+          <ul>
+            <li><img src="/img/cliente.jpeg" alt="" /></li>
+            <li><img src="/img/cliente1.png" alt="" /></li>
+            <li><img src="/img/cliente2.png" alt="" /></li>
+            <li><img src="/img/cliente3.png" alt="" /></li>
+          </ul>
+        </div>
+      </section>
+      <section class="faq section bd-container">
+          <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion__question">
+                ¿Cómo sé si tengo ascendencia Italiana?
+              </button>
+              <div class="answer">
+                <div class="answer-item">
+                  <i class='bx bx-chevron-right'></i>
+                  <p>
+                    El reconocimiento de la ciudadanía italiana por Jure Sanguinis (por sangre) es la manera más común de aplicar a la ciudadanía. Si tienes tu AVO, sin importar que tan lejano sea, puedes aplicar
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="accordion-item" id="question2">
+              <div class="question-item">
+
+              </div>
+              <button class="accordion__question">
+                ¿Qué otros metodos hay para obtener la ciudadanía italiana?
+              </button>
+              <div class="answer">
+                <div class="answer-item">
+                  <i class='bx bx-chevron-right'></i>
+                  <p>
+                    El matrimonio con un ciudadano italiano es una opción.
+                  </p>
+                </div>
+                <div class="answer-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <p> Por naturalización, aunque está es más difícil, puedes aplicar después de haber vivido legalmente en Italia durante al menos 10 años.
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion__question">
+                ¿Cuando vencen mis actas?
+              </button>
+              <div class="answer">
+                <div class="answer-item">
+                <i class='bx bx-chevron-right'></i>
+                <p>
+                  ¿Sabías que en realidad las actas que registran actos civiles como el nacimiento, matrimonio o defunción en realidad NO VENCEN?
+                </p>
+                </div>
+                <div class="answer-item">
+                  <i class='bx bx-chevron-right'></i>
+                  <p>
+                    Esto está establecido claramente en el Art. 41 del DPR
+                    (Decreto del Presidente Della Repúbblica ) de fecha del 28 de
+                    diciembre del 2000 .N. 445/2000.
+                  </p>
+                </div>
+                
+            <div class="answer-item">
+              <i class='bx bx-chevron-right'></i>
+              <p>
+                Te recomendamos que, cuando te comuniques con alguna Comuna para consultar si es viable en la
+                misma realizar el pedido de la ciudadanía, le consultes si aplican los establecidos por el decreto antes mencionados,
+              </p>
+            </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <img src="/img/vencimiento.png" alt="" />
+        <div class="information">
+          <h3 class="title">
+            
+          </h3>
+          <p>
+            
+            
+          </p>
+        </div>
+      </section>
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <span class="section-subtitle">Hablemos!</span>
+            <h3 class="section__title">Contactanos</h3>
+            <p class="contact__description">
+              Lorem ipsum dolor sit amet, consect
+            </p>
+          </div>
+          <div class="contact_button">
+            <a href="#" class="button">Contactanos Ahora!</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-        <div class="cont-footer">
-            <div class="box_cont_footer">
-                <div class="logo">
-                    <img src="/img/ACI.jpg" alt="" />
-                </div>
-                <div class="terminos">
-                    <p>
-                        Red de apoyo en el territorio nacional colombiano para el proceso de obtencion de ciudadania italiana.
-                        <br> asesoramos y acompañamos en el proceso legal, contactanos atraves de los enlaces a nuestras redes.
-                    </p>
-                </div>
-            </div>
-            <div class="box_cont_footer">
-                <h2>Servicios</h2>
-                <a href="">Gestion y envio de Actas y documentos</a>
-                <a href="">Armado de carpeta ciudadana por reconstruccion</a>
-                <a href="">Asesoria visa y seguimiento</a>
-                <a href="">Busqueda genealogica para ascendencia</a>
-                <a href="">Verificacion estado de ciudadania via matrimonio</a>
-                <a href="">Legalizacion de documentacion por notaria o registraduria</a
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="" class="footer__logo"></a>
+          <span class="footer__description"></span>
+          <div>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="" class="footer__social"
+              ><i class='bx bxl-whatsapp' ></i></a>
+          </div>
+        </div>
+
+        <div class="footer__content content__service">
+          <h3 class="footer__title">Servicios</h3>
+          <ul>
+            <li>
+              <a href="#" class="footer__link"
+                >Gestion y envio de Actas y documentos</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link"
+                >Armado de carpeta ciudadana por reconstruccion</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link">Asesoria visa y seguimiento</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link"
+                >Busqueda genealogica para ascendencia</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link"
+                >Verificacion estado de ciudadania via matrimonio</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link"
+                >Legalizacion de documentacion por notaria o registraduria</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link"
+                >Registro o actualizacion en Aire, Traduccion y apostillado</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__link"
+                >Tramite para citas de entrega de documentacion en embajada y de
+                estudio en italia</a
+              >
+            </li>
+          </ul>
+        </div>
+      <div class="footer__copy">
+        <p>&#169; Todos los derechos reservados © ACI 2022</p>
+        <p>Montería - Córdoba - Colombía</p>
+        <p>Desarrollado por Juan Utria & Sergio Pérez</p>
+      </div>
+      <!-- <footer>
+      <div class="cont-footer">
+        <div class="box_cont_footer">
+          <div class="logo">
+            <img src="/img/ACI.jpg" alt="" />
+          </div>
+          <div class="terminos">
+            <p>
+              Red de apoyo en el territorio nacional colombiano para el proceso
+              de obtencion de ciudadania italiana.
+              <br />
+              asesoramos y acompañamos en el proceso legal, contactanos atraves
+              de los enlaces a nuestras redes.
+            </p>
+          </div>
+        </div>
+        <div class="box_cont_footer">
+          <h2>Servicios</h2>
+          <a href="">Gestion y envio de Actas y documentos</a>
+          <a href="">Armado de carpeta ciudadana por reconstruccion</a>
+          <a href="">Asesoria visa y seguimiento</a>
+          <a href="">Busqueda genealogica para ascendencia</a>
+          <a href="">Verificacion estado de ciudadania via matrimonio</a>
+          <a href=""
+            >Legalizacion de documentacion por notaria o registraduria</a
           >
           <a href=""
             >Registro o actualizacion en Aire, Traduccion y apostillado</a
           >
           <a href=""
-            >Tramite para citas de entrega de documentacion en embajada <br />
-            y de estudio en italia</a
+            >Tramite para citas de entrega de documentacion en embajada y de estudio en italia</a
           >
         </div>
         <div class="box_cont_footer">
-          <h2>¿Quienes somos?</h2>
-                <p>
-                    Somos una red de apoyo en colombia, que asesoramos a los interesados en entrar al proceso de adquisicion de la ciudadania italiana en colombia.
-                </p>
-            </div>
-            <div class="box_cont_footer">
-                <h2>Redes sociales</h2>
-                <a href="https://www.facebook.com/AsesoriasCiudadaniaItaliana"><i class="fab fa-facebook-square"></i> Facebook</a
+          <h2>Redes sociales</h2>
+          <a href="https://www.facebook.com/AsesoriasCiudadaniaItaliana"
+            ><i class="fab fa-facebook-square"></i> Facebook</a
           >
           <a href=""><i class="fab fa-twitter-square"></i> Twitter</a>
-                <a href="https://www.instagram.com/asesorias_ciudadania_italiana/"><i class="fab fa-instagram-square"></i> Instagram</a
+          <a href="https://www.instagram.com/asesorias_ciudadania_italiana/"
+            ><i class="fab fa-instagram-square"></i> Instagram</a
           >
           <a href="https://wa.link/7j2djr"
             ><i class="fab fa-whatsapp-square"></i> WhatsApp</a
@@ -243,10 +387,12 @@
       <div class="box_copy">
         <hr />
         <p>
-          Todos los derechos reservados © ACI 2022
+          
           <b>Juan Utria and Sergio Perez</b>
         </p>
-      </div>
+      </div> -->
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
