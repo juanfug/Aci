@@ -18,3 +18,15 @@
 .section__history p {
     font-weight: 300;
 }
+
+.article {
+    background: #b3bcc5;
+    padding: 20px;
+    margin-top: 5px;
+    color: #dfe6e9
+}
+
+.article p {
+    padding: 10px;
+    text-align: left;
+}
