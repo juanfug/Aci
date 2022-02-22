@@ -538,6 +538,10 @@ img {
   border-top: 1px solid #000000;
 }
 
+.footer__container p {
+    font-size: 1rem;
+}
+
 .footer__logo {
   width: 5rem;
 }
